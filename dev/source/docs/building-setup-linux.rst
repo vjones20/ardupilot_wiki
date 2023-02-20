@@ -39,7 +39,7 @@ Clone ArduPilot repository
 Install some required packages
 ------------------------------
 
-If you are on a debian based system (such as Ubuntu or Mint), we provide `a script <https://github.com/ArduPilot/ardupilot/blob/master/Tools/environment_install/install-prereqs-ubuntu.sh>`__ that will do it for you. From ardupilot directory :
+If you are on a debian based system (such as Ubuntu or Mint), the ardupilot source code includes `a script <https://github.com/ArduPilot/ardupilot/blob/master/Tools/environment_install/install-prereqs-ubuntu.sh>`__ that will install required packages and set environment variables. Note that the script will not execute properly if the path to the current working directory includes whitespaces. To run the script, from ardupilot directory input :
 ::
 
     Tools/environment_install/install-prereqs-ubuntu.sh -y
